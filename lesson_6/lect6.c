@@ -7,7 +7,7 @@ int main()
     while ((a = getchar()) != '\n')
     {
         if (a >= 'a' && a <= 'z')
-            putchar ('l');
+            putchar ('|');
         else if (a >= 'A' && a <= 'Z')
             putchar ('u');
         else if (a >= '0' && a <= '9')
@@ -17,7 +17,7 @@ int main()
         else
             putchar('*');
     }
-    
 
+    
     return 0;
 }
